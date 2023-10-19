@@ -50,6 +50,7 @@ We are finally ready to run our scripted infrastructures, below is an ECS cluste
 <img width="527" alt="tf-ecs-apply" src="https://github.com/Semir-Devops/Terraform/assets/144611511/2642310d-0fcb-449c-85e1-3cb2afe06075">
 
 <br/>
+<br/>
 
 The ECS cluster on AWS:
 
