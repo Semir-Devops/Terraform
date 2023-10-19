@@ -30,10 +30,10 @@ I will begin by explaining what every file in each folder does:
 
 <hr/>
 
-We must now underst& what Terraform comm&s are required:
+We must now understand what Terraform commands are required:
+(These commands must be run within a directory that a main.tf exists.)
 
-<b>Terraform init:</b> the first comm& you run when starting a new Terraform project or when adding new providers to an existing project.<br/>
-This comm& must be run within a directory that main.tf exists.
+<b>Terraform init:</b> the first command you run when starting a new Terraform project or when adding new providers to an existing project.<br/>
 
 <b>Terraform plan:</b> used to create an execution plan.<br/>It shows what actions Terraform will take when terraform apply is run, without actually making any changes to the infrastructure.
 
@@ -50,7 +50,9 @@ We are finally ready to run our scripted infrastructures, below is an ECS cluste
 <img width="527" alt="tf-ecs-apply" src="https://github.com/Semir-Devops/Terraform/assets/144611511/2642310d-0fcb-449c-85e1-3cb2afe06075">
 
 <br/>
+
 The ECS cluster on AWS:
+
 <br/>
 <img width="614" alt="tf-ecs-ccluster" src="https://github.com/Semir-Devops/Terraform/assets/144611511/d7cc4961-1449-4a8d-8ed9-a6b954f78f8c">
 
